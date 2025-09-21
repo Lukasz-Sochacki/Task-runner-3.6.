@@ -7,15 +7,51 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 .navigation {
-background-image: url("../images/header.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
-height: 100vh;
-position: relative;
-padding-top: 3%;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    padding-top: 3%;
 
+.header-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    
+    h2 {
+        font-weight: normal;
+        font-size: 40px;
+        margin-bottom: 30px;
+        font-style: italic;
+    }
+
+    h1 {
+        font-size: 80px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+
+    a{
+        display: inline-block;
+        border: 1px solid #efc330;
+        background-color: #efc330;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 20px 50px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
 }
+}
+
 .navigation .col-2 {
     text-align: right;
 
