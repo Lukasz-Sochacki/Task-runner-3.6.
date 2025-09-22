@@ -71,8 +71,6 @@
 }
 
 .navigation ul {
-  // display: flex;
-  // justify-content: end;
   margin-right: 10%;
 
   li {
@@ -129,6 +127,7 @@
 
     &:hover {
       opacity: 0.5;
+      cursor: pointer;
     }
   }
 
@@ -181,6 +180,7 @@
 
       &:hover {
         opacity: 0.5;
+        cursor: pointer;
       }
 
       img {
