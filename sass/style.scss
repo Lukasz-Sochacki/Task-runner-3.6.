@@ -189,6 +189,38 @@
   }
 }
 
+footer {
+  position: relative;
+  margin: 50px 0;
+
+  .footer-copyright {
+    margin-left: 200px;
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .footer-icons {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    i {
+      width: 50px;
+      height: 50px;
+      font-size: 20px;
+      line-height: 50px;
+      text-align: center;
+      border: 1px solid black;
+      background-color: black;
+      color: #fff;
+      border-radius: 50%;
+      margin: 0 5px;
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .navigation .header-text {
     h2 {
@@ -229,6 +261,26 @@
       }
     }
   }
+
+  footer {
+    .footer-copyright {
+      text-align: center;
+      margin: 0;
+    }
+
+    .footer-icons {
+      position: relative;
+      text-align: center;
+      margin-top: 60px;
+
+      i {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 18px;
+      }
+    }
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -241,6 +293,19 @@
 
     .portfolio-description {
       width: 100%;
+    }
+  }
+
+  footer {
+    .footer-copyright {
+      text-align: center;
+      margin: 0;
+    }
+
+    .footer-icons {
+      position: relative;
+      text-align: center;
+      margin-top: 60px;
     }
   }
 }
